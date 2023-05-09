@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rutas</title>
+    <script src="modulo rutas aereas/rutas.js"></script>
+</head>
+<body>
+    <form id="rutas">
+        <input type="text" name="id" placeholder="ingrese el id de la ruta"><br>
+        <input type="text" name="nombre" placeholder="ingrese nombre de la ruta"><br>
+        <input type="text" name="ciudadOrigen" placeholder="ingrese la ciudad origen del trayecto"><br>
+        <input type="date" name="ciudadDestino" placeholder="ingrese la ciudad de destino"><br>
+        <input type="number" name="millasRuta" placeholder="digite el total de millas de la ruta"><br>
+        <input type="number" name="valorMilla" placeholder="ingrese el valor de milla por ruta"><br>
+       
+       
+
+        
+        <input type="submit" data-accion="GET" value="Listar">
+        <input type="submit" data-accion="POST" value="Guardar">
+        <input type="submit" data-accion="PUT" value="Actualizar">
+        <input type="submit" data-accion="DELETE" value="Eliminar">
+        <input type="submit" data-accion="SEARCH" value="Buscar">
+    </form>
+    
+</body>
+</html>

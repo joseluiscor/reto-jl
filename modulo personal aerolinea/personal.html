@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal</title>
+    <script src="modulo personal aerolinea/personal.js"></script>
+</head>
+<body>
+    <form id="personalAir">
+        <input type="text" name="id" placeholder="ingrese su numero de documento"><br>
+        <input type="text" name="nombre" placeholder="ingrese su nombre"><br>
+        <input type="text" name="apellido" placeholder="ingrese su apellido"><br>
+        <input type="email" name="email" placeholder="ingrese su email"><br>
+        <input type="number" name="telefono" placeholder="digite su telefono"><br>
+        <select name="profesion" id="profesion">
+            <option value="0" disabled selected>--Profesion en AIR--</option>
+            <option value="1">Piloto</option>
+            <option value="2">copiloto</option>
+            <option value="3">Asistente de cabina</option>
+            <option value="4">Asistente de counter</option>
+            <option value="5">Especialistas en mecánica aerea</option>
+        </select>
+       
+
+        
+        
+        
+        <input type="submit" data-accion="PUT" value="Actualizar">
+        <input type="submit" data-accion="DELETE" value="Eliminar">
+     
+   
+    </form>
+    
+</body>
+</html>
